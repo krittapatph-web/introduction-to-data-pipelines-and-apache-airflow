@@ -1,3 +1,2 @@
-FROM --platform=linux/amd64 apache/airflow:2.8.0
+FROM --platform=linux/amd64 apache/airflow:3.2.2
 
-RUN pip install airflow-provider-great-expectations==0.2.7
